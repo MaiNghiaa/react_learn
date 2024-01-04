@@ -4,7 +4,11 @@ module.exports = {
   purge: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      // backgroundImage: {
+      //   BackgroundMain: "url('../../public/glassesImage/background.jpg')",
+      // },
+    },
   },
   plugins: [],
 };
